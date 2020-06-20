@@ -1,0 +1,48 @@
+/*My first CSS*/
+/* the CSS comunicates with the CSS via a link tag in the html code. the link tag is placed in the head tag*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+img{
+    border: 10px solid green;
+}
+h1, h2, h3{
+    border: 5px dotted red;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem; /*more research needed*/
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    color: #BF0B3B;/*color is from https://color.adobe.com/explore?page=2*/
+}
+cite{
+    font-size: 1.5rem;
+}
+a{
+   text-decoration: none; /*it takes out the underline*/
+}
+/*using classes to style your css*/
+.bigbold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}/*the css class .bigbold is called in the html code*/
+
+a:link{
+    font-weight: bold;
+    color: brown;
+    font-size: inherit;
+}
+/* a:link changes the color of a clicked link */
+a:hover{
+    font-weight: bold;
+    color: crimson;
+}
+/* a:hover the color of the link changes when you move around it*/
+a.havard:link{
+    color: green; 
+}
